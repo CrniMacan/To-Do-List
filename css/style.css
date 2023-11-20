@@ -1,0 +1,82 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: rgb(226, 7, 7);
+}
+
+#input-data {
+   text-align: center;
+   padding: 20px;
+}
+
+#input-data > div {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+#day-input {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 0px 10px;
+}
+
+#month-input {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 0px 10px;
+}
+
+#year-input {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 0px 10px;
+}
+
+#day{
+   height: 50px;
+   width: 60px;
+   font-size: xx-large;
+}
+
+#month-year{
+   height: 50px;
+   font-size: large;
+}
+
+#date-input input {
+   margin-left: 10px;
+}
+
+#create-list {
+   margin-left: 10px; /* Add margin for spacing between date input and "Create" span */
+}
+
+#create-list a {
+   display: inline-block;
+   text-transform: uppercase;
+   background-color: #fff; /* Button background color */
+   color: #000; /* Button text color */
+   padding: 10px 20px; /* Adjust padding as needed */
+   text-decoration: none;
+   border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+#create-list a:hover {
+   background-color: #ddd; /* Change background color on hover */
+}
